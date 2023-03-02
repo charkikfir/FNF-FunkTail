@@ -100,7 +100,7 @@ jobs:
           name: macBuild
           path: export/release/macos/bin
           
-            buildAndroid:   
+  buildAndroid:   
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
