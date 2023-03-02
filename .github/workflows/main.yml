@@ -41,7 +41,6 @@ jobs:
 - name: Setup Lime
         run: |
           haxelib run lime setup -alias -y
-          haxelib run lime config ANDROID_SETUP true
           haxelib set lime 7.9.0
           haxelib set openfl 9.1.0
           haxelib set flixel 4.11.0
@@ -75,7 +74,6 @@ jobs:
 - name: Setup Lime
         run: |
           haxelib run lime setup -alias -y
-          haxelib run lime config ANDROID_SETUP true
           haxelib set lime 7.9.0
           haxelib set openfl 9.1.0
           haxelib set flixel 4.11.0
@@ -108,7 +106,6 @@ jobs:
 - name: Setup Lime
         run: |
           haxelib run lime setup -alias -y
-          haxelib run lime config ANDROID_SETUP true
           haxelib set lime 7.9.0
           haxelib set openfl 9.1.0
           haxelib set flixel 4.11.0
